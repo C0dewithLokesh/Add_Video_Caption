@@ -52,9 +52,12 @@ const VideoPlayer = ({
         <div className="relative">
           <ReactPlayer url={videoUrl} controls onProgress={handleProgress} />
           <div className="absolute bottom-[50px] w-full flex items-center justify-center z-[100]">
-            <div className="bg-black bg-opacity-70 text-white px-3 py-1">
-              {currentCaption && <p className="text-white">{currentCaption}</p>}
-            </div>
+            {currentCaption && (
+              <div className="bg-black bg-opacity-70 text-white px-3 py-1">
+                {" "}
+                <p className="text-white">{currentCaption}</p>
+              </div>
+            )}
           </div>
         </div>
       )}
