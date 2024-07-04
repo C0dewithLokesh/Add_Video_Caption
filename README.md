@@ -1,4 +1,4 @@
-# Spyne.ai Assessment
+# VideoCaptionPlus
 
 ## Demo Video
 Watch the demo video to see the project in action:
